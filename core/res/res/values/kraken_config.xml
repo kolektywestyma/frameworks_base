@@ -67,4 +67,7 @@
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">true</bool>
 
+    <!-- NightLight FOD -->
+    <bool name="disable_fod_night_light">true</bool>
+
 </resources>
