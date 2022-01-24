@@ -940,11 +940,11 @@ public class DeviceIdleController extends SystemService
         private static final long DEFAULT_FLEX_TIME_SHORT = getDurationSuper(
                 !COMPRESS_TIME ? 60 * 1000L : 5 * 1000L);
         private static final long DEFAULT_LIGHT_IDLE_AFTER_INACTIVE_TIMEOUT = getDurationSuper(
-                !COMPRESS_TIME ? 60 * 1000L : 15 * 1000L);
+                !COMPRESS_TIME ? 30 * 1000L : 15 * 1000L);
         private static final long DEFAULT_LIGHT_PRE_IDLE_TIMEOUT = getDurationSuper(
-                !COMPRESS_TIME ? 3 * 60 * 1000L : 30 * 1000L);
+                !COMPRESS_TIME ? 2 * 60 * 1000L : 30 * 1000L);
         private static final long DEFAULT_LIGHT_IDLE_TIMEOUT = getDurationSuper()
-                !COMPRESS_TIME ? 5 * 60 * 1000L : 15 * 1000L);
+                !COMPRESS_TIME ? 4 * 60 * 1000L : 15 * 1000L);
         private static final long DEFAULT_LIGHT_IDLE_TIMEOUT_INITIAL_FLEX = getDurationSuper(
                 !COMPRESS_TIME ? 60 * 1000L : 5 * 1000L);
         private static final long DEFAULT_LIGHT_MAX_IDLE_TIMEOUT_FLEX = getDurationSuper(
